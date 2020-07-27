@@ -6,8 +6,9 @@ Start global*/ * {
 
 html {
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     color: #0f0f0f;
+    font-family: cursive;
 }
 
 body {
@@ -236,7 +237,7 @@ li {
 .landing-text h1 {
     font-size: 20rem;
     font-family: 'The Historia Demo', sans-serif;
-    background: linear-gradient(to top, #4f3eec, #dd3fa3);
+    background: linear-gradient(to top, cyan, purple);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -265,6 +266,7 @@ li {
     font-size: 10rem;
     opacity: .8;
     color: #0f0f0f;
+    font-family: cursive;
 }
 
 .about-heading {
