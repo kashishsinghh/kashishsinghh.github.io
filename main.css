@@ -57,6 +57,21 @@ img {
     margin-top: 10rem;
 }
 
+.section-heading1 {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.section-heading1 h1 {
+    font-size: 4rem;
+    color: rgba(243, 239, 239, 0.589);
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
+    font-family: cursive;
+}
+
 .section-heading h1 {
     font-size: 4rem;
     color: rgba(0, 0, 0, 0.589);
@@ -64,7 +79,7 @@ img {
     font-weight: 300;
     position: relative;
     margin-bottom: 1rem;
-    font-family: serif;
+    font-family: cursive;
 }
 
 .section-heading h1::before,
@@ -74,7 +89,7 @@ img {
     bottom: -.5rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(17, 12, 12, 0.75);
 }
 
 .section-heading h1::before {
@@ -90,7 +105,39 @@ img {
     bottom: -1rem;
 }
 
+
+/* for contacts */
+
+.section-heading1 h1::before,
+.section-heading1 h1::after {
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(247, 235, 235, 0.75);
+}
+
+.section-heading1 h1::before {
+    width: 10rem;
+    height: 3px;
+    border-radius: .8rem;
+}
+
+.section-heading1 h1::after {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    bottom: -1rem;
+}
+
 .section-heading h6 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-family: cursive;
+}
+
+.section-heading1 h6 {
     font-size: 1.6rem;
     font-weight: 300;
     font-family: cursive;
@@ -237,7 +284,7 @@ li {
 .landing-text h1 {
     font-size: 20rem;
     font-family: 'The Historia Demo', sans-serif;
-    background: linear-gradient(to top, cyan, purple);
+    background: linear-gradient(to top, cyan, purple, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
